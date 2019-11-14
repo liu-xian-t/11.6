@@ -1,0 +1,28 @@
+.wrap{
+    height: 100%;
+  }
+  .container{
+    flex: 1;
+  }
+  .sider{
+    background: #464C5B;
+    color: #fff;
+  }
+  .content{
+    background: #fff;
+    padding: 24px;
+    margin: 0;
+    min-Height: 280px;
+  }
+  
+  :global{
+    .content{
+      color: white;
+      font-size: 30px;
+    }
+  
+    .sider{
+      background: #000;
+    }
+  }
+  
